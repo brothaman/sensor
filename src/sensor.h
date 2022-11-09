@@ -13,10 +13,11 @@ class Sensor
 	public:
 		struct ID
 		{
-			char guid[33];
-		}
+			unsigned char guid[33];
+		};
 	private:
-		ID
+		unsigned char uuid[33];
+		
 };
 
 #endif
